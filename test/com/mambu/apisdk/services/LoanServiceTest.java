@@ -1,3 +1,4 @@
+
 /**
  * 
  */
@@ -100,8 +101,12 @@ public class LoanServiceTest extends MambuAPIServiceTest {
 						+ "\"principalDue\":0,"
 						+ "\"principalPaid\":0,"
 						+ "\"principalBalance\":0,"
+						+ "\"redrawBalance\":0,"
 						+ "\"interestDue\":0,"
 						+ "\"interestPaid\":0,"
+						+ "\"interestFromArrearsBalance\":0,"
+						+ "\"interestFromArrearsDue\":0,"
+						+ "\"interestFromArrearsPaid\":0,"
 						+ "\"interestBalance\":0,"
 						+ "\"feesDue\":0,"
 						+ "\"feesPaid\":0,"
@@ -110,6 +115,8 @@ public class LoanServiceTest extends MambuAPIServiceTest {
 						+ "\"penaltyPaid\":0,"
 						+ "\"penaltyBalance\":0,"
 						+ "\"scheduleDueDatesMethod\":\"INTERVAL\","
+						+ "\"prepaymentAcceptance\":\"ACCEPT_PREPAYMENTS\","
+						+ "\"futurePaymentsAcceptance\":\"NO_FUTURE_PAYMENTS\","
 						+ "\"hasCustomSchedule\":false,"
 						+ "\"repaymentPeriodCount\":1,"
 						+ "\"repaymentPeriodUnit\":\"DAYS\","
@@ -121,8 +128,10 @@ public class LoanServiceTest extends MambuAPIServiceTest {
 						+ "\"principalRepaymentInterval\":1,"
 						+ "\"interestRateSource\":\"FIXED_INTEREST_RATE\","
 						+ "\"accruedInterest\":0,"
+						+ "\"interestFromArrearsAccrued\":0,"	
 						+ "\"accruedPenalty\":0,\"loanPenaltyCalculationMethod\":\"NONE\","
-						+ "\"arrearsTolerancePeriod\":0}," // Added in 4.2: defaults to zero in the model
+						+ "\"arrearsTolerancePeriod\":0," // Added in 4.2: defaults to zero in the model
+						+ "\"allowOffset\":false}," // Added in 4.5: defaults to false in the model
 						+ "\"customInformation\":["
 						+ "{\"value\":\"My Loan Purpose 5\",\"indexInList\":-1,\"toBeDeleted\":false,\"customFieldID\":\"Loan_Purpose_Loan_Accounts\"},"
 						+ "{\"value\":\"Trust\",\"indexInList\":-1,\"toBeDeleted\":false,\"customFieldID\":\"Loan_Originator_Loan_Accounts\"}"

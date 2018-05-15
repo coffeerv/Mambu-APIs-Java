@@ -13,9 +13,9 @@ Usage
 
 To use the Mambu Java API Wrapper, please include the following jars in your build path
 
-* build/Mambu-APIs-Java-4.4-bin.jar
-* build/Mambu-APIs-Java-4.4-bin-sources.jar
-* lib/mambu-models-V4.4.jar
+* build/Mambu-APIs-Java-6.0-bin.jar
+* build/Mambu-APIs-Java-6.0-bin-sources.jar
+* lib/mambu-models-V6.0.jar
 * further dependencies to run and test (see pom.xml for versions)
  * httpclient
  * httpcore
@@ -28,7 +28,6 @@ To use the Mambu Java API Wrapper, please include the following jars in your bui
  * guice
  * mockito-all
  * junit
- * gwt-user
  * datanucleus-core
 
 There is a list of services which are provided through a factory.
@@ -46,6 +45,7 @@ The list will be updated constantly and currently contains:
 - IntelligenceService
 - LinesOfCreditService
 - LoansService
+- NotificationsService
 - OrganizationService
 - RepaymentsService
 - SavingsService
@@ -70,7 +70,7 @@ Contributing to the Project
 -----
 This is a community project and we'd love if you can contribute to make the Mambu API wrapper for Java better.
 
-The project uses Maven for the build process. To make contributions to the project, fork it on GitHub, checkout out the project and import it into Eclipse (or your favourite Java IDE) as a Maven 2 project.
+The project uses Maven for the build process. To make contributions to the project, fork it on GitHub, checkout the project and import it into Eclipse (or your favourite Java IDE) as a Maven 2 project.
 
 Ensure to write JUnit tests for all contributions and rerun all existing tests (under /test) to ensure a high code quality.
 

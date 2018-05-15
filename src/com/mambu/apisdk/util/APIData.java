@@ -104,6 +104,7 @@ public class APIData {
 	public static final String TO_SAVINGS = "toSavingsAccount";
 	public static final String TO_LOAN = "toLoanAccount";
 	public static final String ORIGINAL_TRANSACTION_ID = "originalTransactionId";
+	public static final String TRANSACTION_ID = "transactionID";
 
 	// Filters
 	public static final String BRANCH_ID = "branchId";
@@ -142,6 +143,7 @@ public class APIData {
 	public static final String GROUP_NAME = "groupName";
 	public static final String ASSIGNED_BRANCH_KEY = "assignedBranchKey";
 	public static final String ASSIGNED_CENTRE_KEY = "assignedCentreKey";
+	public static final String ASSIGNED_USER_KEY = "assignedUserKey";
 	public static final String GROUP_MEMBERS = "groupMembers";
 	public static final String GROUP_ROLES = "groupRoles";
 	public static final String THE_GROUP = "theGroup";
